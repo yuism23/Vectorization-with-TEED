@@ -1,6 +1,5 @@
 # Vectorization-with-TEED
-This project focuses on image processing and vectorization analysis, leveraging the third-party open-source project [TEED](https://github.com/xavysp/TEED) for core functionality.
-
+This project is a modified version of [PictureVectorization](https://github.com/yuism23/PictureVectorization) and focuses on image processing and vectorization analysis. It leverages the third-party open-source project [TEED](https://github.com/xavysp/TEED) for core functionality.
 ## Prerequisites
 Before running the project, make sure to complete the following steps:
 
@@ -19,6 +18,7 @@ Ensure the following dependencies are installed in your environment:
 ``` bash
 pip install -r requirements.txt
 ```
+you can find 'requirements.txt' in [PictureVectorization](https://github.com/yuism23/PictureVectorization)
 ## Steps to Run the Project
 ### 1. Preprocessing
 First, run the Preprocess.sh script to prepare the dataset. This will generate initial image processing results and save them under the data folder within the TEED directory.
